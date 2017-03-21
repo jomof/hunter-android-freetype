@@ -17,5 +17,5 @@ matrix:
       - ./call_cmake
 
       # Take a look at the ELF header
-      - readelf -h ~/.hunter/_Base/6974c21/5b02e56/50d56d0/Install/lib/libfreetyped.a | grep 'Class\|File\|Machine'
+      - readelf -h /home/travis/.hunter/_Base/6974c21/5b02e56/8c546ae/Install/lib/libfreetyped.a | grep 'Class\|File\|Machine'
 
